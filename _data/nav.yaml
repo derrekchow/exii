@@ -1,0 +1,22 @@
+- title: About
+  url: /about
+  show: true
+
+- title: Story
+  url: /story
+
+- title: Projects
+  url: /projects
+
+- title: Collaborators
+  url: /collaborators
+
+- title: Guests
+  url: /guests
+
+- title: Apply
+  url: /you
+
+- title: Contact
+  url: /contact
+  show: true
