@@ -3,46 +3,18 @@ title: About
 permalink: /about
 ---
 
-*An inter-university collective that explores creative potential through interdisciplinary collaboration.*
-<br/><br/>
-# Mission
-<hr/>
-We strive to break down interdisciplinary barriers between artists, designers, and engineers and harness their joint potential.
-<br/><br/>
-## Who are we?
-We are a collective of open-minded and skillful students from various universities who believe in the magic of interdisciplinary collaboration. We are artists, designers, and engineers who want to collaborate with those outside of our discipline to create novel work while having fun. 
-<br/><br/>
-## What do we do?
-We provide the structure, resources, and mentorship necessary to support collaborative projects between artists, designers, and engineers. We facilitate projects that explore ideas around:
-- creative expression through technology
-- technology through creative expression
-<br/><br/>
+## Venous Materials
+**Hila Mor, Yu Tianyu, Ken Nakagaki, Benjamin Harvey Miller, Yichen Jia, Hiroshi Ishii / 2020**
 
-# Goals
-<hr/>
-- Provide the structure, resources, and mentorship necessary for collaborators to create successful projects.
-- Create a strong community of collaborators from different schools of thought.
+4D printing encodes self-actuating deformation during the printing process, such that objects can be fabricated flat and then trans- formed into target 3D shapes. While many flattening algorithms have been introduced for 4D printing, a general method customized for FDM (Fused-Deposition Modeling) printing method is lacking. In this work, we vary both the printing direction and local layer thickness; and extend the shape space to continuous-height-field surfaces without the requirement of symmetry. We introduce an end-to-end tool that enables an initially flat sheet to self-transform into the input height field. The tool first flattens the height field into a 2D layout with stress information using a geometry-based optimization algorithm, then computes printing tool paths with a path planning algorithm. Although FDM printing is the fabrication method in this work, our approach can be applied to most extrusion-based printing methods in theory. The results exemplify how the tool broadens the capabilities of 4D printing with an expanded shape space, a low-cost but precise coloring technique, and an intuitive design process.
 
-**For Collaborators:**
-- Build epistemic humility and an appreciation of various disciplines.
-- Create something you are proud of which you could not have made without each other.
-- Have fun and explore ideas without constraints.
-<br/><br/>
+#### expressive input & interaction
+We fabricate substrate film that has heterogeneous density distribution, which can cause differential expansion upon hydration. In order to achieve controllable bending behavior, ethyl cellulose strips are introduced as both shape constraints and a water barriers on top of the film. This semi-rigid strip structure could help regulate the binding direction and create dynamic shape changing by modulating the top surface’s water adsorption rate.
 
-# Structure
-<hr/>
-Interhouse has 3 types of members: *Core Team*, *Collaborators*, and *Guests*.
-<br/><br/>
-### Core Team
-Members that run Interhouse. They recruit and support *Collaborators* and manage the long term success of the organization.
-### Collaborators
-Artists, designers, and engineers that work together on experimental and interdisciplinary projects.
-### Guests
-Advisors, experts, or potential future *Collaborators* that provide support and wisdom for *Collaborators’* projects.
-<br/><br/><br/>
-# Available Positions
-<hr/>
-- [Interhouse - Visual/Brand Designer](/design)
+Tshe Venous Materials project envisions a new way to design dynamic tangible interactions using fluidic structures. We are inspired by venous structures that are ubiquitous throughout nature and inside the human body. By changing colors, veins can inform us of internal and external physical conditions. For example, veins in leaves transmit pigments that drive color change, which informs us of the leaf’s internal condition as well as which season it is. And when we press firmly on a button, the tip of our finger changes its color—this subtle color change can be used as an indicator of the amount of applied pressure.
 
-<br/>
-Want to be involved in another way? **Reach out to us at [hello@interhouse.is](mailto:hello@interhouse.is)**
+Similarly, the displayed flow pattern and color change of the fluidic channels within Venous Materials inform the users of the motion and physical force that’s applied on the material. The users can interact with Venous Materials by deforming or applying pressure on the material, which drives the fluid flow within the internal channels to visualize the dynamic responsive display. Therefore, Venous Materials simultaneously functions as a sensor and display of tangible information.
+
+While computer chips and electronics usually require rigid and bulky components, Venous Materials is a soft and self-contained mechanism that utilizes the motion of daily activities as its energy source. Through research with microfluidics technology, we developed an approach for designing, simulating, and prototyping fluidic interactive sensors that can be embedded in, or attached to, any object.
+We propose a wide spectrum of exciting potential applications by integrating Venous Materials in everyday scenarios. For example, embedding it in clothing can help visualize on-body motion, pressure, and balance, while attaching it to objects can enrich learning activities, augment dynamic graphics, and indicate conditions of package delivery content.
+Venous Materials is a vision that puts forward a new paradigm in the field of human-computer interaction—the first step towards the integration of interactive fluidic mechanisms as tangible user interfaces. We hope our work will inspire researchers, designers, and artists by laying down a foundation for the growth of additional research within the realm of Venous Materials as interactive material design.

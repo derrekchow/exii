@@ -7,13 +7,10 @@ layout: compress
         {% include head.html %}
     </head>
     <body>
-        <div class="container">
-            <div>
-                <header><br/></header>
-                {% include nav.html %}
-            </div>
+        <nav>{% include nav.html %}</nav>
+        <br/>
+        <div>
             <main>
-                <header>Interhouse</header>
                 {{ content }}
             </main>
         </div>

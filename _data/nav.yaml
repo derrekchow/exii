@@ -1,22 +1,16 @@
-- title: About
-  url: /about
-  show: true
+- title: exii
 
-- title: Story
-  url: /story
+- title: People
+  url: /people
 
 - title: Projects
   url: /projects
 
-- title: Collaborators
-  url: /collaborators
+- title: Publications
+  url: /publications
 
-- title: Guests
-  url: /guests
-
-- title: Apply
-  url: /you
+- title: About
+  url: /about
 
 - title: Contact
   url: /contact
-  show: true
