@@ -1,0 +1,117 @@
+- author:
+  - family: Roy
+    given: Quentin
+  - family: Zhang
+    given: Futian
+  - family: Vogel
+    given: Daniel
+  title: Automation Accuracy Is Good, but High Controllability May Be Better
+  ISBN: '9781450359702'
+  publisher: Association for Computing Machinery
+  publisher-place: New York, NY, USA
+  URL: https://doi.org/10.1145/3290605.3300750
+  DOI: 10.1145/3290605.3300750
+  abstract: When automating tasks using some form of artificial intelligence, some
+    inaccuracy in the result is virtually unavoidable. In many cases, the user must
+    decide whether to try the automated method again, or fix it themselves using the
+    available user interface. We argue this decision is influenced by both perceived
+    automation accuracy and degree of task "controllability" (how easily and to what
+    extent an automated result can be manually modified). This relationship between
+    accuracy and controllability is investigated in a 750-participant crowdsourced
+    experiment using a controlled, gamified task. With high controllability, self-reported
+    satisfaction remained constant even under very low accuracy conditions, and overall,
+    a strong preference was observed for using manual control rather than automation,
+    despite much slower performance and regardless of very poor controllability.
+  container-title: Proceedings of the 2019 CHI Conference on Human Factors in Computing
+    Systems
+  page: 1–8
+  numpages: '8'
+  keywords: controlled experiment, controllability, automation, accuracy
+  location: Glasgow, Scotland Uk
+  collection-title: CHI '19
+  issued:
+    date-parts:
+    - - 2019
+  id: 10.1145/3290605.3300750
+  event-place: !ruby/object:BibTeX::Value
+    tokens:
+    - New York, NY, USA
+  type: paper-conference
+- author:
+  - family: Glauser
+    given: Oliver
+  - family: Ma
+    given: Wan-Chun
+  - family: Panozzo
+    given: Daniele
+  - family: Jacobson
+    given: Alec
+  - family: Hilliges
+    given: Otmar
+  - family: Sorkine-Hornung
+    given: Olga
+  title: Rig Animation with a Tangible and Modular Input Device
+  issue_date: July 2016
+  publisher: Association for Computing Machinery
+  publisher-place: New York, NY, USA
+  volume: '35'
+  issue: '4'
+  issn: 0730-0301
+  URL: https://doi-org.proxy.lib.uwaterloo.ca/10.1145/2897824.2925909
+  DOI: 10.1145/2897824.2925909
+  abstract: We propose a novel approach to digital character animation, combining
+    the benefits of tangible input devices and sophisticated rig animation algorithms.
+    A symbiotic software and hardware approach facilitates the animation process for
+    novice and expert users alike. We overcome limitations inherent to all previous
+    tangible devices by allowing users to directly control complex rigs using only
+    a small set (5-10) of physical controls. This avoids oversimplification of the
+    pose space and excessively bulky device configurations. Our algorithm derives
+    a small device configuration from complex character rigs, often containing hundreds
+    of degrees of freedom, and a set of sparse sample poses. Importantly, only the
+    most influential degrees of freedom are controlled directly, yet detailed motion
+    is preserved based on a pose interpolation technique. We designed a modular collection
+    of joints and splitters, which can be assembled to represent a wide variety of
+    skeletons. Each joint piece combines a universal joint and two twisting elements,
+    allowing to accurately sense its configuration. The mechanical design provides
+    a smooth inverse kinematics-like user experience and is not prone to gimbal locking.
+    We integrate our method with the professional 3D software Autodesk Maya® and discuss
+    a variety of results created with characters available online. Comparative user
+    experiments show significant improvements over the closest state-of-the-art in
+    terms of accuracy and time in a keyframe posing task.
+  container-title: ACM Trans. Graph.
+  articleno: '144'
+  numpages: '11'
+  keywords: tangible input, animation system, skeletal deformation
+  month_numeric: '7'
+  issued:
+    date-parts:
+    - - 2016
+      - 7
+  id: 10.1145/2897824.2925909
+  type: article-journal
+- author:
+  - family: Ellis
+    given: Clarence A.
+  - family: Gibbs
+    given: Simon J.
+  - family: Rein
+    given: Gail
+  title: 'Groupware: Some Issues and Experiences'
+  issue_date: Jan. 1991
+  publisher: Association for Computing Machinery
+  publisher-place: New York, NY, USA
+  volume: '34'
+  issue: '1'
+  issn: 0001-0782
+  URL: https://doi.org/10.1145/99977.99987
+  DOI: 10.1145/99977.99987
+  container-title: Commun. ACM
+  page: 39–58
+  numpages: '20'
+  month_numeric: '1'
+  issued:
+    date-parts:
+    - - 1991
+      - 1
+  id: 10.1145/99977.99987
+  type: article-journal

@@ -1,12 +1,25 @@
+url: ""
 plugins:
-  - jekyll-redirect-from
+  - jekyll-sitemap
+  - github-pages
 
 defaults:
   -
     scope:
       path: ""
     values:
-      layout: "main"
+      layout: "view"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+      permalink: /:collection/:name
+      
+collections_dir: _data
+collections:
+  projects:
+    output: true
 
 sass:
   style: compressed

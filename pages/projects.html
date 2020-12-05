@@ -1,0 +1,17 @@
+---
+title: Projects
+permalink: /projects
+view: list
+---
+{% for project in site.projects %}
+<div>
+    <a href="{{ project.url }}" class="item">
+        <img src="https://www.gierad.com/wp-content/themes/gratitude/images/gierad.jpg" />
+        <div class="content">
+            <h5>{{ project.title }}</h5>
+            {{ project.content }}
+        </div>
+    </a>
+    <hr/>
+</div>
+{% endfor %}

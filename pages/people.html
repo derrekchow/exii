@@ -1,0 +1,17 @@
+---
+title: People
+permalink: /people
+view: grid
+---
+{% for person in site.data.people %}
+    <div class="item">
+        <img src="https://www.gierad.com/wp-content/themes/gratitude/images/gierad.jpg" />
+        <div class="content">
+            <h5>{{ person.name }}</h5>
+            {{ person.bio }} <br/><br/>
+            <a href="mailto:{{ person.email }}">Email</a><br/>
+            <a target="_blank" href="{{ person.webpage }}">Webpage</a><br/>
+        </div>
+        <hr/>
+    </div>
+{% endfor %}
