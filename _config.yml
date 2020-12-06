@@ -2,6 +2,7 @@ url: ""
 plugins:
   - jekyll-sitemap
   - github-pages
+  - jekyll-seo-tag
 
 defaults:
   -

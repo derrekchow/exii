@@ -1,5 +1,5 @@
 ---
-title: exii stands for Expressive Input & Interaction.
+title: exii stands for Expressive Input & Interaction
 permalink: /about
 view: narrow
 ---

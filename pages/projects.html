@@ -6,10 +6,10 @@ view: list
 {% for project in site.projects %}
 <div>
     <a href="{{ project.url }}" class="item">
-        <img src="https://www.gierad.com/wp-content/themes/gratitude/images/gierad.jpg" />
+        <img src="https://trackr-media.tangiblemedia.org/publishedmedia/Projects/417/badge?width=140" />
         <div class="content">
             <h5>{{ project.title }}</h5>
-            {{ project.content }}
+            {{ project.content | truncatewords: 50 }}
         </div>
     </a>
     <hr/>

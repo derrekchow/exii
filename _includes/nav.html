@@ -1,3 +1,7 @@
-{% for item in site.data.nav %}
-    <a class="{% if item.url == page.url %}active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+
+{% assign items = ", People, Projects, Papers, About" | split: ", " %}
+
+{% for item in items %}
+    {% assign url = "/" | append: item | downcase %}
+    <a class="{% if url == page.url %}active{% endif %}" href="{{url}}">{{item}}</a>
 {% endfor %}
