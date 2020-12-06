@@ -1,4 +1,3 @@
-url: ""
 plugins:
   - jekyll-sitemap
   - github-pages
