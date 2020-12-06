@@ -11,7 +11,7 @@ view: list
             <h5>{{ paper.title }}</h5>
             {{ paper.author.first.given }} {{ paper.author.first.family }}{% for author in paper.author offset:1 %}, {{ author.given }} {{ author.family }}{% endfor %} ({{ year.first }})<br/>
             <i>{{ paper.container-title }}</i><br/>
-            DOI: <a target="_blank" href="{{site.baseurl}}{{ paper.URL }}">{{ paper.id }}</a>
+            DOI: <a target="_blank" href="{{ paper.URL }}">{{ paper.id }}</a>
         </div>
     </div>
     <hr/>
