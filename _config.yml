@@ -1,3 +1,5 @@
+baseurl: /exii
+
 plugins:
   - jekyll-sitemap
   - github-pages
